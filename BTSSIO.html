@@ -1,0 +1,92 @@
+<html>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="portfolio.css">
+    
+    </head>
+    
+    <body>
+
+    <div w3-include-html="navbar.html"></div> 
+
+    <script>
+        w3IncludeHTML();
+    </script>
+
+    <div class="container-flex">
+        <div class="flex-p" id="BTS">
+            <h1> BTS SIO</h1>
+            <p class="TextBTS">Le BTS Services informatique aux Organisations est un diplôme reconnu par l’état de niveau Bac+2. Il remplace depuis septembre 2011 l’ancien BTS informatique de Gestion (BTS IG).
+              En effet, cette nouvelle formule répond aux attentes de la profession en matière de qualification.
+              Le programme a évolué en fonction de la place et du rôle des TIC (Technologies d’Information Communication) et propose deux spécialités bien distinctes : le BTS SIO SISR et le BTS SIO SLAM.
+              Il associe aux enseignements théoriques et professionnels (en contrôle continu et final) deux stages en entreprise (10 à 11 semaines réparties sur les deux années d’études). 
+              En plus des matières en lien avec l’ingénierie informatique, la formation propose également des enseignements de culture générale, 
+              d’anglais (avec la possibilité de continuer une LV2), de mathématiques appliquées à l’informatique, ainsi que sur les outils d’analyse économique, managériale et juridique des services informatiques. 
+              De plus, au cours de cette formation, il est possible de bénéficier d’un enseignement approfondi en mathématiques et de travailler en autonomie en laboratoire informatique.
+              </p>
+              <hr>
+              <div class="flex-p" id="boutons">
+                <button type="button" class="btn btn-outline-light" onclick="Slam()">Option SLAM</button>
+                <button type="button" class="btn btn-outline-light" onclick="SISR()">Option SISR</button>
+                <button type="button" class="btn btn-outline-light" onclick="Cyber()">Option Cybersécurité</button>
+              </div>
+
+          </div>
+        
+        <div class="flex-p4" id="SLAM">         
+            <h1>Option SLAM</h1><br>
+            <p class="TextBTS">
+              L’option Solutions logicielles et applications métiers forme des spécialistes des logiciels
+              (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration au sein de la société).
+              Les techniciens supérieurs en informatique option slam, sont préparés aux métiers de:
+              <ul class="TextBTS">
+                <li>Développeur d'applications informatiques</li>
+                <li>Développeur informatique</li>
+                <li>Analyste d'applications ou d'études</li>
+                <li>Analyste programmeur</li>
+                <li>Chargé d'études informatiques</li>
+                <li>Informaticien d'études</li>
+                <li>Programmeur analyste</li>
+                <li>Programmeur d'applications</li>
+                <li>Responsable des services applicatifs</li>
+                <li>Technicien d'études informatiques</li>
+              </ul>
+            </p>
+        </div>
+        <div class="flex-p4" id="SISR">
+            <h1>Option SISR</h1><br>
+            <p class="TextBTS">
+              L’option Solutions d’infrastructure, systèmes et réseaux forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité).
+              En sortant d’un BTS SIO SISR, vous serez capables de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.
+              Les techniciens supérieurs en informatique option SISR, peuvent accéder aux métiers de :
+              <ul class="TextBTS">
+                <li>Administrateur systèmes et réseaux</li>
+                <li>Informaticien support et déploiement</li>
+                <li>Pilote d’exploitation</li>
+                <li>Support systèmes et réseaux</li>
+                <li>Technicien d’infrastructure</li>
+                <li>Technicien de production</li>
+                <li>Technicien micro et réseaux</li>
+              </ul>
+            </p>
+        </div>
+        <div class="flex-p4" id="CYBER">
+          <h1>Cybersécurité des services informatiques</h1><br>
+          <p class="TextBTS">
+            vous êtes formé à la cybersécurité et à son intégration dans l'entreprise en tenant compte des dimensions techniques, organisationnelles, juridiques...
+            Vous obtenez ainsi des compétences sur la protection des données et l'identité numérique de l'entreprise, la sécurisation des équipements et usages des utilisateurs. 
+            <ul class="TextBTS">
+              <li>Avec l’option SISR, vous êtes formé à la cybersécurisation d'une infrastructure réseau, d'un système ou d'un service informatique.</li>
+              <li>Avec l’option SLAM, vous êtes formé à la cybersécurisation d'une solution applicative et de son développement.</li>
+            </ul>
+      </div>
+      </div>
+
+      <script src="Portfolio.js"></script>
+    </body>
+
+
+</html>
