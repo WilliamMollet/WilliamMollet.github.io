@@ -1,4 +1,4 @@
-#Name {font-size: 35px; color: white;}
+#Name {font-size: 35px; color: white;margin-left: 10px;}
 
 body{background: linear-gradient(160deg, rgba(64,142,198,1) 0%, rgba(30,39,97,1) 30%,rgba(30,39,97,1) 75%, rgba(122,32,72,1) 100%);
     background-position: center;background-size: cover;background-repeat: no-repeat;background-attachment: fixed; }
