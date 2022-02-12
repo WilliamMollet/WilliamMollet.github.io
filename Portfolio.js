@@ -34,4 +34,11 @@ function Cyber() {
 
 function mail() {
     navigator.clipboard.writeText("williammdev@gmail.com");
+    document.querySelector("#mail").innerText = "Copié!"
+    setTimeout(reset_mail,2000)
 }
+
+function reset_mail(){
+    document.querySelector("#mail").innerText = "E-Mail"
+}
+

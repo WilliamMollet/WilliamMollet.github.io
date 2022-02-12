@@ -8,7 +8,7 @@ body{background: linear-gradient(160deg, rgba(64,142,198,1) 0%, rgba(30,39,97,1)
 
 
 nav{border: groove;border-radius: 10px; padding: 10px; background-image: linear-gradient(90deg, rgba(126,125,159,0.9079832616640406) 0%, rgba(1,0,68,1) 31%) ;
-    background-repeat: no-repeat;background-size: cover;}
+    background-repeat: no-repeat;background-size: cover; opacity: 0.6;}
 
 #navbar{margin-left: -20px;margin-right: -20px;;}
 
@@ -48,7 +48,8 @@ nav{border: groove;border-radius: 10px; padding: 10px; background-image: linear-
   
   ul{text-align: center;}
   
-
+  #caché{color: rgb(0, 119, 255);}
+  
   
   /* Magic Card */
   @property --rotate {
@@ -89,9 +90,13 @@ nav{border: groove;border-radius: 10px; padding: 10px; background-image: linear-
 .card:hover:before,
 .card:hover:after {
     animation: none;
-    opacity: 0;
+    color: rgb(0, 119, 255, 0)
 }
-  
+
+#icon-mail{
+  color: rgb(0, 119, 255)
+}
+
 .card::before {
     content: "";
     width: 104%;
