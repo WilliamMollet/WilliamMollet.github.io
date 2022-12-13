@@ -1,0 +1,80 @@
+<html>    
+    <head>
+      <script src="http://www.w3schools.com/lib/w3data.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="Portfolio.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet"> 
+    
+    </head>
+    
+    <body>
+        
+            
+      <nav id="navbar">
+        <a href="index.html" id="Name">William MOLLET</a>
+
+        <div id="Pages">
+          <a href="profil.html" class="Pages">Mon Profil</a>
+          <a href="BTSSIO.html" class="Pages">BTS SIO</a>
+          <a href="Docu.html" class="Pages">Compétences</a>
+          <a class="dropdown-toggle Pages" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            AP1&AP2
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Projet.html">AP1</a></li>
+            <li><a class="dropdown-item" href="ProjetAP2.html">AP2</a></li>
+          </ul>
+  
+          <a href="Veille.html" class="Pages">Veille Technologique</a>
+          <a href="Contact.html" class="Pages">Contact</a>
+      </div>
+        
+
+    </nav>
+
+
+   
+   <div class="container-fluid">
+     <div class="d-flex flex-column" id="ViePro">
+      <div>
+        <h1 class="TextVie"> Ma vie proffessionel jusqu'à présent</h1>
+      </div>
+      <div>
+        <p class="TextVie">Jusqu'à maintenant ma vie professionelle est plutot lacunaire, mais j'éspère pouvoir acquérir de nouvelle expérience d'ici peu.<br>
+          D'ailleurs la raison pour la quel j'ai choisi l'IPSSI comme école pour mon BTS est les possibilités que l'école donne en vu de l'alternance.</p>
+      </div>
+       </div>
+    <div class="d-flex flew-row justify-content-evenly">
+        <div class="col-5" id="Stage1">
+          <h2 class="TextVie">Stage de 1ere Année</h2><br>
+          <p class="TextVie" style="text-align: center;">
+            Mon stage de première année s'est déroulé chez PragmaSolar, une startup cherchant à amener l'energie dans les communautés local a Saint-Quentin en Yvelines. <br> <br>
+            La bas j'ai été chargé de la création du site vitrine que leurs clients consulteraient afin de s'informer du projet,
+            mais aussi de l'aspect graphique de l'espace personel des clients, et du dashboard de l'administration. <br><br>
+            Afin de ne pas uniquement me reposer sur mes collègues de l'équipe de développement, j'ai du me former sur RethinkDB afin de pouvoir acceder a la base de données de l'entreprise
+            pour mettre en place l'aspect du site intéragissant avec l'utilisateur.
+        </p>
+      </div>
+      <div class="col-5" id="Stage2">
+        <h2 class="TextVie">Alternance</h2><br>
+        <p class="TextVie" style="text-align: center;">
+          Mon alternance de 2eme année se passe aussi chez PragmaSolar. Nous avons migré sur le template Regna de BootstrapMade, utilisant du PHP 
+          et un peu de Ajax pour un formulaire de contact. Je suis le seul développeur travaillant sur le site nostoitssolaires.fr, 
+          l'équipe de développeurs externe ayant changé de projet, je m'occupe tout aussi bien de la partie graphique, que du back-end.
+          <br> <br>
+          Le template que nous utilisons m'as obligé à me former en PHP rapidement afin de pouvoir répondre au demande de mon supérieur, ainsi que résoudre d'éventuel problème.
+          Problèmes qui ont été nombreux au début de l'implantation du template, surtout concernant le formulaire de contact en Ajax.
+          
+        </p>
+      </div>
+    </div>
+  </div>
+
+    </body>
+
+</html>

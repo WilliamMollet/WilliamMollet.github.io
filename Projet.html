@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
+    <script src="Portfolio.js" defer></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+            
+  <nav id="navbar">
+    <a href="index.html" id="Name">William MOLLET</a>
+
+    <div id="Pages">
+      <a href="profil.html" class="Pages">Mon Profil</a>
+      <a href="BTSSIO.html" class="Pages">BTS SIO</a>
+      <a href="Docu.html" class="Pages">Compétences</a>
+      <a class="dropdown-toggle Pages" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        AP1&AP2
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="Projet.html">AP1</a></li>
+        <li><a class="dropdown-item" href="ProjetAP2.html">AP2</a></li>
+      </ul>
+
+      <a href="Veille.html" class="Pages">Veille Technologique</a>
+      <a href="Contact.html" class="Pages">Contact</a>
+  </div>
+    
+    
+
+</nav>
+
+    <div class="flex-p" id="AP1">
+      <h1 class="titleBTS">Projet AP1</h1>
+      <p class="TextBTS">
+        Dans le cadre de mon cursus BTS SIO, nous avons du réaliser différents projet, dont l'AP1, celui ci. Il consiste en la création d'une entreprise fictive et
+        de son site comprenant des mentions légales.
+      </p>
+    </div>
+
+    </div>
+
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top:30px ;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+              <div class="container">
+                  <div class="carousel-caption">
+
+                          <div class="row featurette" style="padding-top:10px;">
+                              <div class="col-md-6 order-md-2">
+                                  <div>
+                                      <h2 class="featurette-heading">Page d'accueil du site</h2>
+                                      <ul style="list-style-type: none;">Languages utilisées:
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript</li>
+                                        <li>Bibliothèque CSS(Bootstrap)</li>
+                                        
+                                    </ul>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <img src="AP1 Index.PNG" style="max-height: 40vh;"> 
+                              
+                            </div>
+                        </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row featurette" style="padding-top:10px;">
+                  <div class="col-md-6 order-md-2 ">
+                      <div>
+                          <h2 class="featurette-heading">Pages de Mentions légales</h2>
+                          <ul style="list-style-type: none;">Ressources utilisées:
+                              <li>Site de la CNIL</li>
+                              <li>Loi française</li>
+                          </ul>
+                          
+                      </div>
+                    </div>
+  
+                    <div class="col-md-6">
+                          <img src="AP1 Mentions Légales.PNG" style="max-height: 20rem;"> 
+  
+                    </div>
+                  </div>    
+  
+                  <hr class="featurette-divider">
+  
+                  <div class="row featurette" style="padding-top:10px;">
+                    <div class="col-md-6">
+  
+                          <h2 class="featurette-heading">Formulaire de Contact</h2>                        
+                          <ul style="list-style-type: none;">Languages utilisées:
+                              <li>CSS</li>
+                              <li>PHP</li>
+                              <li>HTML</li>
+                    </div>
+  
+                    <div class="col-md-6">
+                      <img src="AP1 Contact.PNG" style="max-height: 10rem; top: 30px; position: relative;">
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+</html>

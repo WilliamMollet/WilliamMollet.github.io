@@ -1,42 +1,130 @@
-#Name {font-size: 35px; color: white;margin-left: 10px;}
+#Name {font-size: 35px; color: white;}
 
-body{background: linear-gradient(160deg, rgba(64,142,198,1) 0%, rgba(30,39,97,1) 30%,rgba(30,39,97,1) 75%, rgba(122,32,72,1) 100%);
-    background-position: center;background-size: cover;background-repeat: no-repeat;background-attachment: fixed; }
+body{
+  background-image: url(https://wallpaperaccess.com/full/869923.gif);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
 
-.Pages {font-size: 28px; position:relative;left:41%;font-family: 'Zen Kurenaido', sans-serif; color: white;}
+.Pages {font-size: 29px; position:relative;font-family: 'Zen Kurenaido', sans-serif; color: white; margin: 1px;}
+#Pages{float: right;}
 
 
 
-nav{border: groove;border-radius: 10px; padding: 10px; background-image: linear-gradient(90deg, rgba(126,125,159,0.9079832616640406) 0%, rgba(1,0,68,1) 31%) ;
-    background-repeat: no-repeat;background-size: cover; opacity: 0.6;}
+nav{border: groove; padding-bottom: 10px; background-image: linear-gradient(90deg, rgba(126,125,159,0.9079832616640406) 0%, rgba(1,0,68,1) 31%) ;
+    background-repeat: no-repeat;background-size: cover;}
 
-#navbar{margin-left: -5% ;margin-right: -5%;}
+#navbar{margin-left: -3px;margin-right: -5px;;}
 
-.texte{margin-top: 10%;text-align: center;}
+.texte{margin-top: 10%;text-align: center; color: white;}
 #texte1{text-align: center;}
 
-.Titre{position: relative; left: 37%;padding-top: 20px;}
+.titleBTS{text-align: center; color: white;}
+
+#textIndex{    
+  background: rgba(11, 11, 11, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(11, 11, 11, 0.39);padding: 5px;}
+
+
+.Titre{position: relative;padding-top: 20px;}
 
 /* Ceci est le css pour le template */
-#LoremIntro{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;}
-#Lorem1{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;margin-top: 10px;}
-#Lorem2{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;margin-top: 10px;}
+#LoremIntro{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;}
+
+#Lorem1{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;margin-top: 10px;}
+
+#Lorem2{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;margin-top: 10px;}
+
 .TextLorem {color: white;}
 /* Fin du css pour le template */
 
-#SISR{background-color: #f5f0e13d;border-radius: 20px;padding: 5px; display: none; width: 50%;}
-#SLAM{background-color: #f5f0e13d;border-radius: 20px;padding: 5px; display: none; width: 50%;}
-#CYBER{background-color: #f5f0e13d;border-radius: 20px;padding: 5px; display: none; width: 50%;}
-#BTS{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;margin-bottom: 50px;margin-top: 10px;}
+#SISR{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px; display: none; width: 50%;}
+
+#SLAM{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px; display: none; width: 50%;}
+
+#CYBER{
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px; display: none; width: 50%;}
+
+#BTS{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;margin-bottom: 50px;margin-top: 10px;}
+
 .TextBTS {color: white; text-align: center;}
 #boutons{text-align: center;}
 
-#AccBody{background-image: url(https://wallpaperaccess.com/full/869923.gif);background-position: center;background-size:
-  cover;background-repeat: no-repeat;background-attachment: fixed;}
   
-  #ViePro{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;}
-  #Stage1{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;margin-top: 10px;}
-  #Stage2{background-color: #f5f0e13d;border-radius: 20px;padding: 5px;margin-top: 10px;}
+  #ViePro{
+    text-align: center;
+    margin-bottom: 2%;    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;}
+
+  #Stage1{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;margin-top: 10px;}
+
+  #Stage2{    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;margin-top: 10px;}
+
   .TextVie {color: white;}
   
   /* Mise en pratique de flexbox avec un template*/
@@ -46,105 +134,152 @@ nav{border: groove;border-radius: 10px; padding: 10px; background-image: linear-
   .flex-p2{flex-basis: 48%;}
   /* Mise en pratique de flexbox avec un template*/
   
-  ul{text-align: center;}
+  .listBTS{text-align: center;}
   
-  #caché{color: rgb(0, 119, 255);}
-  
-  
-  /* Magic Card */
-  @property --rotate {
-    syntax: "<angle>";
-    initial-value: 132deg;
-    inherits: false;
+  .textVeille{
+    color: white;
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);
   }
-  
-  :root {
-    --card-height: 40vh;
-    --card-width: calc(var(--card-height) / 1.5);
-  }
-  
 
-  .card {
-    background: #191c29;
-    width: var(--card-width);
-    height: var(--card-height);
-    padding: 3px;
-    position: relative;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 1.5em;
-    font-family: 'Zen Kurenaido';
-    color: rgb(88 199 250 / 0%);
-    cursor: pointer;
+  .outilVeille{
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+  }
+
+  .lien-contact{
+    text-decoration: none;
     margin-top: 12%;
-}
+  }
+
+  #skillList{
+    margin-bottom: 2%;    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;
+  }
+
+  #AP1{
+    margin-bottom: 2%;    
+    background: rgba(11, 11, 11, 0.41);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;
+  }
+
+  .container {
+    overflow: hidden;
+  }
   
-.card:hover {
-    color: rgb(0, 119, 255);
-    transition: color 1s;
-}
-
-.card:hover:before,
-.card:hover:after {
-    animation: none;
-    color: rgb(0, 119, 255, 0)
-}
-
-#icon-mail{
-  color: rgb(0, 119, 255)
-}
-
-.card::before {
-    content: "";
-    width: 104%;
-    height: 102%;
-    border-radius: 8px;
-    background-image: linear-gradient(
-      var(--rotate),
-      #5ddcff,
-      #3c67e3 43%,
-      #4e00c2
-    );
-    position: absolute;
-    z-index: -1;
-    top: -1%;
-    left: -2%;
-    animation: spin 2.5s linear infinite;
-}
+  .filterDiv {
+    float: left;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
   
-.card::after {
-    position: absolute;
-    content: "";
-    top: calc(var(--card-height) / 6);
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    transform: scale(0.8);
-    filter: blur(calc(var(--card-height) / 6));
-    background-image: linear-gradient(
-      var(--rotate),
-      #5ddcff,
-      #3c67e3 43%,
-      #4e00c2
-    );
-    opacity: 1;
-    transition: opacity 0.5s;
-    animation: spin 2.5s linear infinite;
-}
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
   
-@keyframes spin {
-    0% {
-      --rotate: 0deg;
-    }
-    100% {
-      --rotate: 360deg;
-    }
+  /* Style the buttons */
+  .filter {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  
+  #synthese{height: 100%;}
+
+  #dropdown{ display:inline;}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  height: 80vh;
+  background: rgba(11, 11, 11, 0.41);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(11, 11, 11, 0.39);;padding: 5px;margin-top: 10px;}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
 }
 
-/* Magic Card */
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 1rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+

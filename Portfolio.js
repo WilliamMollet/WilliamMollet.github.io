@@ -41,4 +41,3 @@ function mail() {
 function reset_mail(){
     document.querySelector("#mail").innerText = "E-Mail"
 }
-
