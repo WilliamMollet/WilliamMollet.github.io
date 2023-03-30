@@ -283,3 +283,6 @@ nav{border: groove; padding-bottom: 10px; background-image: linear-gradient(90de
   letter-spacing: -.05rem;
 }
 
+.card-img-top{
+  max-height:300px;
+}
