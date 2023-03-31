@@ -291,6 +291,9 @@ nav{border: groove; padding-bottom: 10px; background-image: linear-gradient(90de
   max-height:300px;
 }
 
+.veilleImg{
+  max-height: 400px;
+}
 
   /* Magic Card */
   @property --rotate {
