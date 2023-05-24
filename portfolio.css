@@ -10,14 +10,18 @@ body{
 }
 
 .Pages {font-size: 29px; position:relative;font-family: 'Zen Kurenaido', sans-serif; color: white; margin: 1px;}
-#Pages{float: right;}
 
 
-
+/* 
 nav{border: groove; padding-bottom: 10px; background-image: linear-gradient(90deg, rgba(126,125,159,0.9079832616640406) 0%, rgba(1,0,68,1) 31%) ;
-    background-repeat: no-repeat;background-size: cover;}
+    background-repeat: no-repeat;background-size: cover;} */
 
-#navbar{margin-left: -3px;margin-right: -5px;;}
+#navbar{
+  background: rgba(11, 11, 11, 0.71);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(11, 11, 11, 0.39);padding: 5px;}
 
 .texte{margin-top: 10%;text-align: center; color: white;}
 #texte1{text-align: center;}

@@ -15,49 +15,32 @@
         
             
         <nav id="navbar">
-            <a href="index.html" id="Name">William MOLLET</a>
-
-            <div id="Pages">
+            <div class="row d-flex justify-content-between">
+              <div class="col-6">
+                <a href="index.html" id="Name">William MOLLET</a>
+              </div>
+      
+              
+              <div id="Pages" class="col" style="max-width: fit-content;">
                 <a href="profil.html" class="Pages">Mon Profil</a>
                 <a href="BTSSIO.html" class="Pages">BTS SIO</a>
-                <a href="Docu.html" class="Pages">Compétences</a>
                 <a class="dropdown-toggle Pages" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    AP
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="Projet.html">AP1</a></li>
-                    <li><a class="dropdown-item" href="ProjetAP2.html">AP2</a></li>
-                    <li><a class="dropdown-item" href="ProjetAP2.html">AP3</a></li>
-                    <li><a class="dropdown-item" href="ProjetAP2.html">AP4</a></li>
-                  </ul>
+                  Compétences
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tableauSyntheseWM.pdf" target="_blank">Tableau de synthèse</a></li>
+                  <li><a class="dropdown-item" href="Docu.html">Documentation</a></li>
+                  <li><a class="dropdown-item" href="Projet.html">AP1 (Entreprise Factice)</a></li>
+                  <li><a class="dropdown-item" href="ProjetAP2.html">AP2 (Avant Projet)</a></li>
+                  <li><a class="dropdown-item" href="ProjetAP3.html">AP3 (Site Web)</a></li>
+                  <li><a class="dropdown-item" href="ProjetAP4.html">AP4 (Application Mobile)</a></li>
+                </ul>
         
                 <a href="Veille.html" class="Pages">Veille Technologique</a>
                 <a href="Contact.html" class="Pages">Contact</a>
             </div>
-
-        </nav>
-    
-        <div class="row d-flex justify-content-center">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="tbSynthese">
-                Tableau de Synthèse
-            </button>
-        </div>
-        <!-- Button trigger modal -->
-        
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Tableau de synthèse</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <iframe src="tableauSyntheseWM.pdf" width="100%" id="synthese"></iframe>
-                </div>
             </div>
-            </div>
-        </div>
+          </nav>
 
         <Section id="skillList">
 
