@@ -17,6 +17,8 @@ nav{border: groove; padding-bottom: 10px; background-image: linear-gradient(90de
     background-repeat: no-repeat;background-size: cover;} */
 
 #navbar{
+  position: sticky;
+  z-index: 5;
   background: rgba(11, 11, 11, 0.71);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.5px);
@@ -397,4 +399,47 @@ nav{border: groove; padding-bottom: 10px; background-image: linear-gradient(90de
 .lien-contact:hover #tbSynthese .texteLien{
   color: #0d6efd;
   transition: color 1s;
+}
+
+#Context{
+  color : white;
+  background: rgba(11, 11, 11, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(11, 11, 11, 0.39);
+  padding: 5px;
+  text-align: center;
+  width: 70%;
+  margin: 15px;
+  margin-top: 5vh;
+}
+
+#Flutter{
+  color : white;
+  background: rgba(11, 11, 11, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(11, 11, 11, 0.39);
+  padding: 5px;
+  text-align: center;
+  margin: 15px;
+  margin-top: 5vh;
+}
+
+#Appli{
+  color : white;
+  background: rgba(11, 11, 11, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(11, 11, 11, 0.39);
+  padding: 5px;
+  padding-left: 15px;
+  margin: 15px;
+  margin-top: 5vh;
 }
