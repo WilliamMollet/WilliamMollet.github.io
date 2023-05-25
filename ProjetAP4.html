@@ -70,28 +70,36 @@
             <br><br>
             <h2>L'application</h2>
             Pour répondre aux attentes envers cette application, 5 pages on été mises en places :<br>
-            <ul style="text-align: left;">
-                <li>
-                    Une page de connexion. Celle ci s'occupe de verifier que l'utilisateur de l'application possède bien un compte sur notre base de données 
-                    ainsi que ce compte soit bien un compte administrateur.
-                </li>
-                <li>
-                    Une page de gestion de produit. Sur cette page, il y a une liste des produits présents dans la base de données.
-                    En cliquant sur l'un des produits un menu déroulant s'ouvre, donnant accès a des champs de textes permettant de changer les données d'un produit.
-                    Il y a aussi 2 boutons, l'un permettant la sauvegarde, et donc l'envoi en base de données, des changements dans les champs de textes,
-                    l'autre sert à la suppression d'un produit.
-                </li>
-                <li>
-                    Une page d'ajout de produit, disponible depuis un bouton flottant sur la page de gestion. Cette page contient un formulaire a remplir pour l'ajout
-                    d'un produit ainsi que le bouton d'envoi.
-                </li>
-                <li>Une page de gestion d'utilisateur. Elle fait la même chose que pour la page gestion de produit mais pour les utilisateurs</li>
-                <li>Une page d'ajout d'utilisateur. Elle fait la même chose que pour la page d'ajout de produit mais pour les utilisateurs</li>
-            </ul>
+            <div class="row d-flex">
+              <div class="col-8">
+                <ul style="text-align: left;">
+                    <li>
+                        Une page de connexion. Celle ci s'occupe de verifier que l'utilisateur de l'application possède bien un compte sur notre base de données 
+                        ainsi que ce compte soit bien un compte administrateur.
+                    </li>
+                    <li>
+                        Une page de gestion de produit. Sur cette page, il y a une liste des produits présents dans la base de données.
+                        En cliquant sur l'un des produits un menu déroulant s'ouvre, donnant accès a des champs de textes permettant de changer les données d'un produit.
+                        Il y a aussi 2 boutons, l'un permettant la sauvegarde, et donc l'envoi en base de données, des changements dans les champs de textes,
+                        l'autre sert à la suppression d'un produit.
+                    </li>
+                    <li>
+                        Une page d'ajout de produit, disponible depuis un bouton flottant sur la page de gestion. Cette page contient un formulaire a remplir pour l'ajout
+                        d'un produit ainsi que le bouton d'envoi.
+                    </li>
+                    <li>Une page de gestion d'utilisateur. Elle fait la même chose que pour la page gestion de produit mais pour les utilisateurs</li>
+                    <li>Une page d'ajout d'utilisateur. Elle fait la même chose que pour la page d'ajout de produit mais pour les utilisateurs</li>
+                </ul>
+              </div>
+              <div class="col-2">
+                <img src="./Img/CaptureDocWeb.JPG" alt="">
+              </div>
+            </div>
             <h2>L'API et Base de données</h2>
             Dans le cadre de ce projet, et du projet de site Web, une base de données et une API ont dû être créer.
             L'API, en nodeJS, permet la connexion du site et de l'application a la base de données et la base de données, faite sur MariaDB, 
-            stocke les données utilisés par le site et l'application.
+            stocke les données utilisés par le site et l'application.<br>
+            <img src="./Img/CaptureBackEnd.JPG" alt="">
           </div>
       </div>
 </body>
