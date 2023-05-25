@@ -21,10 +21,10 @@
       </div>
 
       
-      <div id="Pages" class="col" style="max-width: fit-content;">
-        <a href="profil.html" class="Pages">Mon Profil</a>
-        <a href="BTSSIO.html" class="Pages">BTS SIO</a>
-        <a class="dropdown-toggle Pages" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <div id="composants" class="col" style="max-width: fit-content;">
+        <a href="profil.html" class="composants">Mon Profil</a>
+        <a href="BTSSIO.html" class="composants">BTS SIO</a>
+        <a class="dropdown-toggle composants" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Compétences
         </a>
         <ul class="dropdown-menu">
@@ -36,14 +36,14 @@
           <li><a class="dropdown-item" href="ProjetAP4.html">AP4 (Application Mobile)</a></li>
         </ul>
 
-        <a class="dropdown-toggle Pages" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="dropdown-toggle composants" id="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Veilles Technologiques
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="VeillePro.html">Professionnelle</a></li>
             <li><a class="dropdown-item" href="Veille.html">Personnelle</a></li>
           </ul>
-        <a href="Contact.html" class="Pages">Contact</a>
+        <a href="Contact.html" class="composants">Contact</a>
     </div>
     </div>
   </nav>
@@ -68,35 +68,48 @@
             React permet de construire des composants réutilisables qui représentent des parties spécifiques de l'interface utilisateur.
             <br><br>
             <h2>L'application</h2>
-            Pour répondre aux attentes envers cette application, 7 pages on été mises en places :<br>
+            Pour répondre aux attentes envers cette application, 7 composants on été mises en places :<br>
             <div class="row d-flex">
                 <div class="col-8">
                   <ul style="text-align: left;">
                       <li>
-                          Une page de connexion sous la forme d'un modal disponible sur tout le site. 
-                          Celle ci s'occupe de verifier que l'utilisateur du site possède bien un compte sur notre base de données.
+                        Un composant d'accueil. C'est la composant sur laquelle on arrive en premier.
                       </li>
                       <li>
-                        Une page d'insription. C'est ici que se trouve le formulaire d'inscription.
+                        Un composant de navigation. C'est ici que se trouve la barre de navigation. Elle est présente sur tout le site. 
+                        Ici se trouve aussi un modal de connexion.
                       </li>
                       <li>
-                        Une page recensant tous nos produits et nos sports. Sur cette page se trouve une liste de tous nos produits avec leur nom, prix et bouton d'achat ainsi qu'un carousel
-                        permettant l'accès aux pages de chaque sport.
+                        Une composant d'insription. C'est ici que se trouve le formulaire d'inscription.
                       </li>
                       <li>
-                        Les pages des sports. Sur ces pages se trouve une liste des produits propres à chaque sport.
+                        Un composant recensant tous nos produits et nos sports. Sur cette composant se trouve une liste de tous nos produits avec leur nom, prix et bouton d'achat ainsi qu'un carousel
+                        permettant l'accès aux composants de chaque sport.
                       </li>
                       <li>
-                        Les pages des produits. Les pages de chaques produits. Elle contient leur nom, prix et stock ainsi qu'un bouton pour les ajouter au panier.
+                        Un composant des sports. Sur ce composant se trouve une liste des produits propres à chaque sport. Il est créer de façon dynamique, c'est à dire que si un nouveau sport est ajouté,
+                        il sera automatiquement ajouté à la liste.
                       </li>
-                      <li>Une page de panier. Ce panier est stocké en LocalStorage, c'est à dire en variable d'environnement de votre machine.</li>
                       <li>
-                          Une page de gestion de produit. Sur cette page, il y a une liste des produits présents dans la base de données.
+                        Le composant de produit. Il contient leur nom, prix et stock ainsi qu'un bouton pour les ajouter au panier. Il est aussi créer dynamiquement.
+                      </li>
+                      <li>Un composant de panier. Ce panier est stocké en LocalStorage, c'est à dire en variable d'environnement de votre machine.</li>
+                      <li>
+                          Un composant de gestion de produit. Sur ce composant, il y a une liste des produits présents dans la base de données.
                           En cliquant sur l'un des produits un menu déroulant s'ouvre, donnant accès a des champs de textes permettant de changer les données d'un produit.
                           Il y a aussi 2 boutons, l'un permettant la sauvegarde, et donc l'envoi en base de données, des changements dans les champs de textes,
                           l'autre sert à la suppression d'un produit. Pour y avoir accès, il faut que le compte avec le quel vous êtes connecté soit un compte administrateur
                       </li>
-                      <li>Une page de gestion d'utilisateur. Elle fait la même chose que pour la page gestion de produit mais pour les utilisateurs</li>
+                      <li>Un composant de gestion d'utilisateur. Il fait la même chose que pour le composant gestion de produit mais pour les utilisateurs</li>
+                      <li>
+                        Un composant de contact. Ici se trouve un formulaire de contact ainsi que les informations de contact de l'entreprise.
+                      </li>
+                      <li>
+                        Un composant footer. C'est ici que se trouve le footer du site. Il est présent sur toutes les pages.
+                      </li>
+                      <li>
+                        Un composant de mention légale. C'est ici que se trouve les mentions légales du site.
+                      </li>
                   </ul>
               </div>
               <div class="col-2">
